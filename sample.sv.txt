@@ -3,6 +3,13 @@ class sequence extends uvm_sequence#(seq_item);
 
 
 function void build_pase(uvm_phase phase)
+super.build_phase(phase)
+
+endfunction
+function void connect_pase(uvm_phase phase)
+super.connect_phase(phase)
+
+
 endfunction
 
 endclass
