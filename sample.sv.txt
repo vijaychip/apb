@@ -1,0 +1,4 @@
+class sequence extends uvm_sequence#(seq_item);
+`uvm_object_utils(sequence)
+
+endclass
