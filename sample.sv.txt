@@ -1,4 +1,8 @@
 class sequence extends uvm_sequence#(seq_item);
 `uvm_object_utils(sequence)
 
+
+function void build_pase(uvm_phase phase)
+endfunction
+
 endclass
